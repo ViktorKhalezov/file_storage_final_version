@@ -6,7 +6,13 @@
 
     <groupId>ru.geekbrains</groupId>
     <artifactId>file_storage</artifactId>
+    <packaging>pom</packaging>
     <version>1.0</version>
+    <modules>
+        <module>client</module>
+        <module>server</module>
+        <module>common</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
