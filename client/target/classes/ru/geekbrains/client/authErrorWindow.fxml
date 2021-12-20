@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.geekbrains.client.AuthErrorWindowController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Label fx:id="label" alignment="CENTER" layoutX="154.0" layoutY="58.0" prefHeight="71.0" prefWidth="332.0" text="Вы ввели неверный логин и/или пароль.">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="288.0" layoutY="236.0" mnemonicParsing="false" onAction="#okButton" prefHeight="39.0" prefWidth="65.0" text="ОК" />
+            <Label alignment="CENTER" layoutX="112.0" layoutY="129.0" prefHeight="71.0" prefWidth="416.0" text="Повторите ввод логина и пароля или пройдите регистрацию.">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>
